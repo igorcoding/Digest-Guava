@@ -12,8 +12,5 @@ perl:
 matrix:
   allow_failures:
     - os: osx
-install:
-  - provision/run.sh
 notifications:
   email: false
-sudo: required
