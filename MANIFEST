@@ -1,0 +1,11 @@
+Changes
+Guava.xs
+lib/Digest/Guava.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+ppport.h
+README
+t/00-use.t
+t/01-basic.t
+t/testdata.json
