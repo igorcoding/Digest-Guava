@@ -68,6 +68,10 @@ Mons Anderson, C<< <mons@cpan.org> >>
 
 igorcoding, C<< <igorcoding@gmail.com> >>
 
+=head1 BUGS
+
+Please report any bugs or feature requests in L<https://github.com/igorcoding/Digest-Guava/issues>
+
 =head1 COPYRIGHT AND LICENSE
 
 Copyright (C) 2016 by igorcoding
