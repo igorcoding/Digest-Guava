@@ -1,7 +1,6 @@
 language: perl
 os:
   - linux
-  - osx
 perl:
   - "5.20"
   - "5.18"
@@ -9,8 +8,5 @@ perl:
   - "5.14"
   - "5.12"
   - "5.10"
-matrix:
-  allow_failures:
-    - os: osx
 notifications:
   email: false
