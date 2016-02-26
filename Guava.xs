@@ -8,15 +8,6 @@
 #include <stdint.h>
 #include <stdio.h>
 
-
-#ifndef cwarn
-#define cwarn(fmt, ...)   do{ \
-	fprintf(stderr, "[WARN] %s:%d: ", __FILE__, __LINE__); \
-	fprintf(stderr, fmt, ##__VA_ARGS__); \
-	if (fmt[strlen(fmt) - 1] != 0x0a) { fprintf(stderr, "\n"); } \
-	} while(0)
-#endif
-
 static const int64_t
 	K   = 2862933555777941757L;
 
