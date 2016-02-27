@@ -47,8 +47,22 @@ OR
 
 Google's Guava hashing algorithm.
 
+Assign to input a "bucket" in the range [0, buckets), in a uniform manner
+that minimizes the need for remapping as buckets grows.
+That is, consistentHash(h, n) equals:
+
+=item * n - 1, with approximate probability 1/n;
+
+=cut
+
+=item * consistentHash(h, n - 1), otherwise (probability 1 - 1/n).
+
+=cut
 
 =head1 SEE ALSO
+
+See the wikipedia article on consistent hashing: L<http://en.wikipedia.org/wiki/Consistent_hashing>
+for more information.
 
 Google's implementation of Guava hash at L<https://github.com/google/guava>.
 
