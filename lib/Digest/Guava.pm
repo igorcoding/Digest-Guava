@@ -7,7 +7,7 @@ use warnings;
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(guava_hash);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 require XSLoader;
 XSLoader::load('Digest::Guava', $VERSION);
