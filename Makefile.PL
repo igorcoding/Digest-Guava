@@ -17,7 +17,7 @@ WriteMakefile(
     },
 
     ABSTRACT_FROM     => 'lib/Digest/Guava.pm',
-    AUTHOR            => ['Mons Anderson <mons@cpan.org>', 'igorcoding <igorcoding@gmail.com>'],
+    AUTHOR            => 'igorcoding <igorcoding@gmail.com>',
     LICENSE           => 'perl',
     LIBS              => [''],
     DEFINE            => '-g -ggdb -O0 -std=c99 -Wall',
