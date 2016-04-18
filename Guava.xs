@@ -37,10 +37,10 @@ MODULE = Digest::Guava		PACKAGE = Digest::Guava
 SV*
 guava_hash(state, buckets)
 		long state;
-		unsigned buckets;
+		int buckets;
 	PROTOTYPE: $$
 	CODE:
-		int32_t res = guava(state, buckets);
+		int32_t res = guava((int64_t) state, (int32_t) buckets);
 		RETVAL = newSViv(res);
 	OUTPUT:
 		RETVAL
